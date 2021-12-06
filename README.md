@@ -11,16 +11,21 @@ FINALLY, WE DEPLOYED THE PROJECT FROM THE ISPAC FILE.
 	
                  /**** PHASE 1 ****/
 STEP 1: CREATE DATABASE IN MY LOCAL SQL SERVER. 
+
 STEP 2: CREATE SCHEMAS IN  ABOVE DATABASE
+
 STEP 3: CREATE TABLES USING ABOVE SCHEMAS
+
 STEP 4: DEFINE RELATIONS USING ABOVE TABLES AND SCHEMAS
+
 STEP 5: ADD SAMPLE DATA INTO EACH TABLES
 		TO VERIFY DATA TYPES
 		TO VERIFY RELATIONS
 
 		/**** PHASE 2 ****/
 STEP 6: IDENTIFY THE RELATIONS.
-              DESIGN THE DIMENSIONS FOR STAR / SNOWFLAKE SCHEMA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    IMPLEMENT DIMENSION LOADS. FOR THIS, CREATE SSIS PACKAGES FOR EACH OF THE INDIVIDUAL DIMENSIONS. 
+        DESIGN THE DIMENSIONS FOR STAR / SNOWFLAKE SCHEMA                                                                                                                      
+        IMPLEMENT DIMENSION LOADS. FOR THIS, CREATE SSIS PACKAGES FOR EACH OF THE INDIVIDUAL DIMENSIONS. 
 STEP 7:	CREATE SSIS PACKAGE FOR FACT TABLE
        FACT TABLE IS THE ACTUAL TABLE THAT HAS RELATIONS TO ABOVE DIMENSION TABLE.
 STEP 8:	  CREATE A MASTER PACKAGE
